@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 
-import App from './components/App';
+import Root from './components/Root';
 
-const render = () => ReactDOMServer.renderToString(<App isBuild={true} />);
+const render = () => ReactDOMServer.renderToString(<Root isBuild={true} />);
 
 export default render;
