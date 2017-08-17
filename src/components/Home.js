@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import Profile from './Profile';
+import Circle from './Circle';
 import Links from './Links';
+import Profile from './Profile';
 import styles from '../styles/home';
 
 class Home extends Component {
@@ -22,6 +23,7 @@ class Home extends Component {
   render() {
     return (
       <div style={styles} >
+        <Circle />
         <Profile profileText={this.state.profileText} />
         <Links changeText={this.changeText} />
       </div>

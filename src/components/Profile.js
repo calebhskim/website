@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Profile = props => (
   <div>
-    <h4>{props.profileText}</h4>
+    <h4 id='profile'>{props.profileText}</h4>
   </div>
 );
 

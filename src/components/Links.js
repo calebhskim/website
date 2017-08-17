@@ -83,6 +83,8 @@ const Links = (props) => {
       </a>
       <a
         className='projects'
+        href='https://calebhskim.github.io/'
+        target='WOB_PROJECTS'
         onMouseOver={() => changeText('Projects')}
         onMouseOut={() => changeText('Caleb Kim')}
       >
@@ -90,6 +92,8 @@ const Links = (props) => {
       </a>
       <a
         className='resume'
+        href='http://calebkim.me/CalebKimResume.pdf'
+        target='WOB_RESUME'
         onMouseOver={() => changeText('Resume')}
         onMouseOut={() => changeText('Caleb Kim')}
       >
@@ -100,7 +104,7 @@ const Links = (props) => {
 };
 
 Links.propTypes = {
-  changeText: PropTypes.function,
+  changeText: PropTypes.func,
 };
 
 Links.defaultProps = {};
